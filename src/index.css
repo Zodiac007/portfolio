@@ -1,13 +1,352 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  max-height: 1600px;
+  background-color: #f8f9fa;
+}
+/* ******************************** */
+/* NAVBAR */
+/* ******************************** */
+.nav-row {
+  padding-top: 2%;
+}
+li {
+  display: inline-block;
+  padding: 0 3%;
+}
+.logo {
+  animation: rotation 10s infinite linear;
+}
+#horizontal-list {
+  padding-top: 1%;
+  margin-right: 6%;
+}
+.social-icon:hover {
+  transform: translateY(-2px);
+}
+/* ******************************** */
+/* LEFT DIV */
+/* ******************************** */
+.y-circle {
+  height: auto;
+  width: 130%;
+  margin-left: -170%;
+  margin-top: -20%;
+  z-index: -1;
+}
+.programme-img-div {
+  margin-top: -100%;
+  margin-left: 60%;
+  border-radius: 50%;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: cadetblue;
+  z-index: 4;
+}
+.programme {
+  margin: 25% 0 0 0;
+  height: 50px;
+  width: 50px;
+  z-index: 4;
+  animation: rotation 12s infinite linear;
+}
+.programme-heading {
+  margin: 4% 0 4% 50%;
+  font-size: 26px;
+  font-family: "Luckiest Guy", cursive;
+  color: #3d3d3d;
+}
+.p-btn {
+  margin: 4% 0 4% 50%;
+  background-color: cadetblue;
+  border-color: cadetblue;
+}
+.email-div {
+  display: flex;
+  justify-content: center;
+  margin: 42% 0 0 50%;
+}
+.email-div p {
+  font-weight: 600;
+  color: #3d3d3d;
+  padding: 0 2%;
+  cursor: pointer;
+}
+.email {
+  height: 30px;
+  width: 30px;
+}
+/* ******************************** */
+/* CENTER DIV */
+/* ******************************** */
+.center-img-div {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.bg-image {
+  height: auto;
+  width: 70%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.my-image {
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  height: auto;
+  width: 80%;
+}
+.name {
+  font-size: 72px;
+  font-family: "Luckiest Guy", cursive;
+  color: #3d3d3d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ******************************** */
+/* RIGHT DIV */
+/* ******************************** */
+.design-img-div {
+  margin-top: -125%;
+  margin-left: 10%;
+  border-radius: 50%;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: cadetblue;
+  z-index: 4;
+}
+.design {
+  margin: 25% 0 0 0;
+  height: 50px;
+  width: 50px;
+  z-index: 4;
+  animation: rotation 12s infinite linear;
+}
+.design-heading {
+  margin: 4% 50% 4% 0;
+  font-size: 26px;
+  font-family: "Luckiest Guy", cursive;
+  color: #3d3d3d;
+}
+.d-btn {
+  margin: 4% 50% 4% 0;
+  background-color: cadetblue;
+  border-color: cadetblue;
+}
+
+.o-circle {
+  height: auto;
+  width: 130%;
+  margin-right: -170%;
+  margin-top: 5%;
+  z-index: -1;
+}
+.hidden-div {
+  display: none;
+}
+
+/* ************************************* */
+/* SOCIAL ICONS */
+/* ************************************* */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.html {
+  position: absolute;
+  top: 8%;
+  left: 30%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+.css {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+
+.js {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+.react {
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+
+.ai {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+.ps {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+
+.xd {
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  height: 40px;
+  width: 40px;
+  animation: rotation 12s infinite linear;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    max-height: 1000px;
+    /* background-color: #10a541; */
+    overflow-y: auto;
+  }
+  h6 {
+    padding-top: 2%;
+  }
+  li {
+    display: inline-block;
+    padding: 0 4%;
+  }
+  #horizontal-list {
+    padding-top: 1%;
+    margin-right: 10%;
+  }
+  .email-div {
+    display: none;
+  }
+
+  .y-circle {
+    height: auto;
+    width: 130%;
+    margin-left: -190%;
+    z-index: -1;
+  }
+  .programme-img-div {
+    margin: -110% auto 0 auto;
+    /* margin-left: 40%; */
+    border-radius: 50%;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    z-index: 4;
+  }
+  .programme {
+    margin: 25% 0 0 0;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+  }
+  .programme-heading {
+    margin: 4% auto 4% auto;
+  }
+  .p-btn {
+    margin: 2% auto 4% auto;
+  }
+  .center-div {
+    position: relative;
+    left: 0;
+    margin-top: 60%;
+    /* height: 400px; */
+    /* margin-bottom: 0%; */
+    z-index: 1;
+  }
+  .name-div {
+    /* margin-top: -20%; */
+  }
+  .name {
+    font-size: 58px;
+  }
+  .bg-image {
+    height: auto;
+    width: 85%;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .my-image {
+    position: absolute;
+    height: auto;
+    width: 82%;
+    margin: 18% auto 0 auto;
+    z-index: -1;
+  }
+
+  .right-div {
+    margin-top: -140%;
+    /* margin-bottom: 5%; */
+    /* height: 250px; */
+    z-index: -1;
+  }
+  .o-circle {
+    display: none;
+    height: auto;
+    width: 130%;
+    margin-right: -170%;
+    margin-top: 30%;
+    z-index: -1;
+  }
+  .design-img-div {
+    margin: -25% auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    z-index: 4;
+  }
+  .design {
+    margin: 25% 0 0 0;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+  }
+  .design-heading {
+    margin: 4% auto 4% auto;
+  }
+  .d-btn {
+    margin: 2% auto 4% auto;
+  }
+  .hidden-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e9eb;
+    z-index: 2;
+  }
+  .hidden-div p {
+    font-weight: 600;
+    color: #3d3d3d;
+    padding: 0 2%;
+    margin: 2% 0;
+  }
 }

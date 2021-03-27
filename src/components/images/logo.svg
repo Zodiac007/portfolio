@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="135" viewBox="0 0 135 135">
+  <g id="Group_48" data-name="Group 48" transform="translate(-1798 313)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1798 -313)" fill="#f47c2c" stroke="#f47c2c" stroke-width="8">
+      <circle cx="67.5" cy="67.5" r="67.5" stroke="none"/>
+      <circle cx="67.5" cy="67.5" r="63.5" fill="none"/>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(1825.479 -285.521)">
+      <text id="H" transform="translate(-0.479 61.521)" fill="#4fc7ec" stroke="#4fc7ec" stroke-width="5" font-size="59" font-family="TheBoldFont, The Font"><tspan x="0" y="0">H</tspan></text>
+      <text id="D" transform="translate(32.521 63.521)" fill="#f0db4f" font-size="64" font-family="TheBoldFont, The Font"><tspan x="0" y="0">D</tspan></text>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="25" height="9" transform="translate(59.521 37.521)" fill="#f0db4f"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="28" height="8" transform="translate(56.521 48.521)" fill="#f0db4f"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="25" height="9" transform="translate(59.521 26.521)" fill="#f0db4f"/>
+    </g>
+  </g>
+</svg>
