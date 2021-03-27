@@ -1,9 +1,9 @@
 import React from "react";
 import BgImage from "./images/img-bg.svg";
-import MyImage from "./images/Exxclusion-3.png";
+import MyImage from "./images/My.png";
 import YCircle from "./images/yellow-circle.svg";
 import OCircle from "./images/orange-circle.svg";
-import BPattern from "./images/blue-pattern.svg";
+// import BPattern from "./images/blue-pattern.svg";
 import Programme from "./images/programming.svg";
 import Design from "./images/graphic-design.svg";
 // ICONS
@@ -62,41 +62,13 @@ function HeroSection(props) {
               <img src={BgImage} className="bg-image" alt="" />
               <img src={MyImage} className="my-image" alt="" />
               {/* Icons */}
-              <img
-                src={HTML}
-                className="html"
-                alt=""
-              />
-              <img
-                src={CSS}
-                className="css"
-                alt=""
-              />
-              <img
-                src={JS}
-                className="js"
-                alt=""
-              />
-              <img
-                src={ReactIcon}
-                className="react"
-                alt=""
-              />
-              <img
-                src={AI}
-                className="ai"
-                alt=""
-              />
-              <img
-                src={PS}
-                className="ps"
-                alt=""
-              />
-              <img
-                src={XD}
-                className="xd"
-                alt=""
-              />
+              <img src={HTML} className="html" alt="" />
+              <img src={CSS} className="css" alt="" />
+              <img src={JS} className="js" alt="" />
+              <img src={ReactIcon} className="react" alt="" />
+              <img src={AI} className="ai" alt="" />
+              <img src={PS} className="ps" alt="" />
+              <img src={XD} className="xd" alt="" />
             </div>
 
             <div className="hidden-div">
