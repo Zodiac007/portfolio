@@ -4,6 +4,7 @@ body {
   max-height: 1600px;
   background-color: #f8f9fa;
 }
+
 /* ******************************** */
 /* NAVBAR */
 /* ******************************** */
@@ -135,6 +136,7 @@ li {
   margin: 4% 50% 4% 0;
   background-color: cadetblue;
   border-color: cadetblue;
+  z-index: 2;
 }
 
 .o-circle {
@@ -225,7 +227,6 @@ li {
     margin: 0;
     padding: 0;
     max-height: 1000px;
-    /* background-color: #10a541; */
     overflow-y: auto;
   }
   h6 {
@@ -242,28 +243,23 @@ li {
   .email-div {
     display: none;
   }
-
   .y-circle {
     height: auto;
     width: 130%;
     margin-left: -190%;
-    z-index: -1;
   }
   .programme-img-div {
     margin: -110% auto 0 auto;
-    /* margin-left: 40%; */
     border-radius: 50%;
     text-align: center;
     height: 100px;
     width: 100px;
     background-color: cadetblue;
-    z-index: 4;
   }
   .programme {
     margin: 25% 0 0 0;
     height: 50px;
     width: 50px;
-    z-index: 4;
   }
   .programme-heading {
     margin: 4% auto 4% auto;
@@ -274,14 +270,9 @@ li {
   .center-div {
     position: relative;
     left: 0;
-    margin-top: 60%;
-    /* height: 400px; */
-    /* margin-bottom: 0%; */
-    z-index: 1;
+    margin-top: 60%;  
   }
-  .name-div {
-    /* margin-top: -20%; */
-  }
+  
   .name {
     font-size: 58px;
   }
@@ -302,18 +293,14 @@ li {
   }
 
   .right-div {
-    margin-top: -140%;
-    /* margin-bottom: 5%; */
-    /* height: 250px; */
-    z-index: -1;
+    margin-top: -140%;  
   }
   .o-circle {
     display: none;
     height: auto;
     width: 130%;
     margin-right: -170%;
-    margin-top: 30%;
-    z-index: -1;
+    margin-top: 30%;  
   }
   .design-img-div {
     margin: -25% auto 0 auto;
@@ -322,13 +309,13 @@ li {
     height: 100px;
     width: 100px;
     background-color: cadetblue;
-    z-index: 4;
+    
   }
   .design {
     margin: 25% 0 0 0;
     height: 50px;
     width: 50px;
-    z-index: 4;
+    
   }
   .design-heading {
     margin: 4% auto 4% auto;

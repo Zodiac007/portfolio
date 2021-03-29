@@ -17,7 +17,7 @@ import JS from "./images/icons/js.svg";
 
 // Contact Icons
 import Email from "./images/icons/email.svg";
-import Call from "./images/icons/phone-call.svg";
+// import Call from "./images/icons/phone-call.svg";
 
 import "../index.css";
 
@@ -45,15 +45,15 @@ function HeroSection(props) {
                   href="https://github.com/Zodiac007"
                   className="btn btn-secondary p-btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Development Work
                 </a>
               </div>
               <div className="email-div">
                 <img src={Email} className="email" alt="" />
-                <a href="#">
-                  <p>harsh007dwivedi@gmail.com</p>
-                </a>
+
+                <p>harsh007dwivedi@gmail.com</p>
               </div>
             </div>
           </div>
@@ -73,9 +73,7 @@ function HeroSection(props) {
 
             <div className="hidden-div">
               <img src={Email} className="email" alt="" />
-              <a href="#">
-                <p>harsh007dwivedi@gmail.com</p>
-              </a>
+              <p>harsh007dwivedi@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 p-3 right-div">
@@ -92,6 +90,7 @@ function HeroSection(props) {
                   href="https://drive.google.com/drive/folders/1P9uYbyEnH1RjXLh62_5Qi4aFOEG5qzHK?usp=sharing"
                   className="btn btn-secondary d-btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Designing Work
                 </a>

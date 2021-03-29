@@ -12,7 +12,7 @@ function Nav() {
       <div className="container-fluid">
         <div className="row nav-row">
           <div className="col-md-6">
-            <a href="#">
+            <a href="./">
               <img
                 src={Logo}
                 className="animate__animated logo animate__bounceInLeft animate__delay-2s"
@@ -33,6 +33,7 @@ function Nav() {
                 <a
                   href="https://www.facebook.com/harsh.dwivedi.92123"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={Facebook}
@@ -44,7 +45,11 @@ function Nav() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/harsh007dwivedi" target="_blank">
+                <a
+                  href="https://twitter.com/harsh007dwivedi"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={Twitter}
                     className="social-icon"
@@ -58,6 +63,7 @@ function Nav() {
                 <a
                   href="https://www.linkedin.com/in/harsh-dwivedi-949035166/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={Linkedin}
@@ -72,6 +78,7 @@ function Nav() {
                 <a
                   href="https://www.instagram.com/harsh777dwivedi/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={Instagram}
